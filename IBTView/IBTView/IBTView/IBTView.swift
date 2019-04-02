@@ -10,9 +10,6 @@ import UIKit
 
 @IBDesignable
 class IBTView: UIView, IBTDesignable {
-  var shadowLayer: CALayer?
-  
-  @IBInspectable var shadowOpacity: CGFloat = 1
   
   @IBInspectable var cornerRadius: CGFloat = CGFloat.nan
   
@@ -21,6 +18,8 @@ class IBTView: UIView, IBTDesignable {
   
   @IBInspectable var shadowOffset: CGSize = CGSize.zero
   @IBInspectable var shadowColor: UIColor? = nil
+  @IBInspectable var shadowOpacity: Float = 1
+  @IBInspectable var shadowRadius: CGFloat = 0
   
   override func didMoveToWindow() {
     super.didMoveToWindow()

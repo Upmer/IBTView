@@ -14,17 +14,16 @@ protocol IBTDesignable {
   var borderColor: UIColor? { get set }
   var borderWidth: CGFloat { get set }
   
-  var shadowLayer: CALayer? { get set }
   var shadowColor: UIColor? { get set }
   var shadowOffset: CGSize { get set }
-  var shadowOpacity: CGFloat { get set }
+  var shadowOpacity: Float { get set }
+  var shadowRadius: CGFloat { get set }
 }
 
 extension IBTDesignable where Self: UIView {
   private func setCornerRadius() {
     guard !cornerRadius.isNaN, cornerRadius > 0 else { return }
     self.layer.cornerRadius = cornerRadius
-//    self.layer.masksToBounds = true
   }
   
   private func setBorder () {
@@ -33,18 +32,14 @@ extension IBTDesignable where Self: UIView {
   }
   
   private func setShadow() {
-    let shadowLayer: CALayer!
-    if let _ = self.shadowLayer {
-      shadowLayer = self.shadowLayer
+    if let shadowColor = self.shadowColor {
+      self.layer.shadowColor = shadowColor.cgColor
+      self.layer.shadowOffset = shadowOffset
+      self.layer.shadowOpacity = shadowOpacity
+      self.layer.shadowRadius = shadowRadius
     } else {
-      shadowLayer = CALayer()
-      layer.insertSublayer(shadowLayer, at: 0)
+      self.layer.shadowColor = UIColor.clear.cgColor
     }
-    debugPrint(self.bounds)
-    shadowLayer.frame = self.bounds
-    shadowLayer.shadowColor = shadowColor?.cgColor
-    shadowLayer.shadowOffset = shadowOffset
-    shadowLayer.shadowOpacity = 1
   }
   
   func setViewConfiguration() {

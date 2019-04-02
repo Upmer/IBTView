@@ -12,6 +12,8 @@
 		834A428B22536604008F996E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 834A428922536604008F996E /* Main.storyboard */; };
 		834A428D22536606008F996E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 834A428C22536606008F996E /* Assets.xcassets */; };
 		834A429022536606008F996E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 834A428E22536606008F996E /* LaunchScreen.storyboard */; };
+		834A429822536709008F996E /* RevealServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 834A429722536708008F996E /* RevealServer.framework */; };
+		834A429B22536A38008F996E /* IBTView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 834A429A22536A38008F996E /* IBTView.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		834A428C22536606008F996E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		834A428F22536606008F996E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		834A429122536606008F996E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		834A429722536708008F996E /* RevealServer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RevealServer.framework; sourceTree = "<group>"; };
+		834A429A22536A38008F996E /* IBTView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IBTView.framework; path = "../../../../../Library/Developer/Xcode/DerivedData/IBTView-cwvejgfxmcrqdiairognajclyfzu/Build/Products/Debug-iphonesimulator/IBTView.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				834A429822536709008F996E /* RevealServer.framework in Frameworks */,
+				834A429B22536A38008F996E /* IBTView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +60,8 @@
 		834A428422536604008F996E /* Example */ = {
 			isa = PBXGroup;
 			children = (
+				834A429A22536A38008F996E /* IBTView.framework */,
+				834A429722536708008F996E /* RevealServer.framework */,
 				834A428522536604008F996E /* AppDelegate.swift */,
 				834A428722536604008F996E /* ViewController.swift */,
 				834A428922536604008F996E /* Main.storyboard */,
@@ -73,6 +81,7 @@
 			buildPhases = (
 				834A427E22536604008F996E /* Sources */,
 				834A427F22536604008F996E /* Frameworks */,
+				834A42992253675B008F996E /* ShellScript */,
 				834A428022536604008F996E /* Resources */,
 			);
 			buildRules = (
@@ -129,6 +138,26 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		834A42992253675B008F996E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export REVEAL_SERVER_FILENAME=\"RevealServer.framework\"\n\n# Update this path to point to the location of RevealServer.framework in your project.\nexport REVEAL_SERVER_PATH=\"${SRCROOT}/${REVEAL_SERVER_FILENAME}\"\n\n# If configuration is not Debug, skip this script.\n[ \"${CONFIGURATION}\" != \"Debug\" ] && exit 0\n\n# If RevealServer.framework exists at the specified path, run code signing script.\nif [ -d \"${REVEAL_SERVER_PATH}\" ]; then\n\"${REVEAL_SERVER_PATH}/Scripts/copy_and_codesign_revealserver.sh\"\nelse\necho \"Cannot find RevealServer.framework, so Reveal Server will not be started for your app.\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		834A427E22536604008F996E /* Sources */ = {
@@ -283,10 +312,25 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N6R484V56C;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Example",
+					"$(inherited)",
+					"$(SRCROOT)",
+				);
 				INFOPLIST_FILE = Example/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-weak_framework",
+					RevealServer,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.upmer.Example;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -300,7 +344,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N6R484V56C;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Example",
+				);
 				INFOPLIST_FILE = Example/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
