@@ -1,0 +1,3 @@
+[submodule "Carthage/Checkouts/IBView"]
+	path = Test/Carthage/Checkouts/IBView
+	url = https://github.com/Upmer/IBView.git

@@ -13,7 +13,6 @@
 		83A0BD7E22547CD800A85838 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83A0BD7D22547CD800A85838 /* Assets.xcassets */; };
 		83A0BD8122547CD800A85838 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83A0BD7F22547CD800A85838 /* LaunchScreen.storyboard */; };
 		83A0BD8922547DC600A85838 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 83A0BD8822547DC600A85838 /* Cartfile */; };
-		83A0BD8F2254848200A85838 /* IBView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83A0BD8E2254848200A85838 /* IBView.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +24,6 @@
 		83A0BD8022547CD800A85838 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83A0BD8222547CD800A85838 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83A0BD8822547DC600A85838 /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = SOURCE_ROOT; };
-		83A0BD8E2254848200A85838 /* IBView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IBView.framework; path = Carthage/Build/iOS/IBView.framework; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,7 +31,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83A0BD8F2254848200A85838 /* IBView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +56,6 @@
 		83A0BD7522547CD700A85838 /* Test */ = {
 			isa = PBXGroup;
 			children = (
-				83A0BD8E2254848200A85838 /* IBView.framework */,
 				83A0BD8822547DC600A85838 /* Cartfile */,
 				83A0BD7622547CD700A85838 /* AppDelegate.swift */,
 				83A0BD7822547CD700A85838 /* ViewController.swift */,
@@ -81,7 +77,6 @@
 				83A0BD6F22547CD700A85838 /* Sources */,
 				83A0BD7022547CD700A85838 /* Frameworks */,
 				83A0BD7122547CD700A85838 /* Resources */,
-				83A0BD90225484B500A85838 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -138,28 +133,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		83A0BD90225484B500A85838 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/IBView.framework",
-			);
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/IBView.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n/usr/local/bin/Carthage copy-frameworks\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		83A0BD6F22547CD700A85838 /* Sources */ = {
