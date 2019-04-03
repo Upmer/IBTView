@@ -12,7 +12,7 @@ class IBDefaultConfig {
   static var cornerRadius: CGFloat = 0
   static var borderWidth = CGFloat.nan
   static var shadowOffset = CGSize.zero
-  static var shadowOpacity = Float.nan
+  static var shadowOpacity: Float = 1
   static var shadowRadius = CGFloat.nan
 }
 

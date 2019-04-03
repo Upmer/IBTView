@@ -68,12 +68,12 @@
 		83A0BD5D22547C7B00A85838 /* IBView */ = {
 			isa = PBXGroup;
 			children = (
+				83A0BD6322547C7B00A85838 /* IBCornerDesignable.swift */,
 				83A0BD5E22547C7B00A85838 /* IBShadowDesignable.swift */,
 				83A0BD5F22547C7B00A85838 /* IBLabel.swift */,
 				83A0BD6022547C7B00A85838 /* IBView.swift */,
 				83A0BD6122547C7B00A85838 /* IBButton.swift */,
 				83A0BD6222547C7B00A85838 /* IBImageView.swift */,
-				83A0BD6322547C7B00A85838 /* IBCornerDesignable.swift */,
 			);
 			path = IBView;
 			sourceTree = "<group>";
@@ -301,6 +301,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = IBView/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -325,6 +326,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = IBView/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
