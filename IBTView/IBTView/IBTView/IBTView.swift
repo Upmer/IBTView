@@ -25,5 +25,10 @@ class IBTView: UIView, IBTDesignable {
     super.didMoveToWindow()
     setViewConfiguration()
   }
+  
+  override func layoutSubviews() {
+    super.layoutSubviews()
+    layoutSubLayer()
+  }
 }
 

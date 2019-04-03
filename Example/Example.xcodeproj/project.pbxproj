@@ -13,7 +13,7 @@
 		834A428D22536606008F996E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 834A428C22536606008F996E /* Assets.xcassets */; };
 		834A429022536606008F996E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 834A428E22536606008F996E /* LaunchScreen.storyboard */; };
 		834A429822536709008F996E /* RevealServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 834A429722536708008F996E /* RevealServer.framework */; };
-		834A429B22536A38008F996E /* IBTView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 834A429A22536A38008F996E /* IBTView.framework */; };
+		834A429F22545C21008F996E /* IBTView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 834A429E22545C21008F996E /* IBTView.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		834A428F22536606008F996E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		834A429122536606008F996E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		834A429722536708008F996E /* RevealServer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RevealServer.framework; sourceTree = "<group>"; };
-		834A429A22536A38008F996E /* IBTView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IBTView.framework; path = "../../../../../Library/Developer/Xcode/DerivedData/IBTView-cwvejgfxmcrqdiairognajclyfzu/Build/Products/Debug-iphonesimulator/IBTView.framework"; sourceTree = "<group>"; };
+		834A429E22545C21008F996E /* IBTView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IBTView.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,7 +34,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				834A429822536709008F996E /* RevealServer.framework in Frameworks */,
-				834A429B22536A38008F996E /* IBTView.framework in Frameworks */,
+				834A429F22545C21008F996E /* IBTView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,7 +60,7 @@
 		834A428422536604008F996E /* Example */ = {
 			isa = PBXGroup;
 			children = (
-				834A429A22536A38008F996E /* IBTView.framework */,
+				834A429E22545C21008F996E /* IBTView.framework */,
 				834A429722536708008F996E /* RevealServer.framework */,
 				834A428522536604008F996E /* AppDelegate.swift */,
 				834A428722536604008F996E /* ViewController.swift */,
@@ -310,6 +310,7 @@
 		834A429522536606008F996E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N6R484V56C;
@@ -342,6 +343,7 @@
 		834A429622536606008F996E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N6R484V56C;

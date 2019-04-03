@@ -1,0 +1,11 @@
+framework module IBTView {
+  umbrella header "IBTView.h"
+
+  export *
+  module * { export * }
+}
+
+module IBTView.Swift {
+    header "IBTView-Swift.h"
+    requires objc
+}

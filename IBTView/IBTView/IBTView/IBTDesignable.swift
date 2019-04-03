@@ -47,4 +47,9 @@ extension IBTDesignable where Self: UIView {
     setBorder()
     setShadow()
   }
+  
+  func layoutSubLayer() {
+//    let bezier = UIBezierPath(roundedRect: self.bounds, cornerRadius: self.layer.cornerRadius)
+//    self.layer.shadowPath = bezier.cgPath
+  }
 }
