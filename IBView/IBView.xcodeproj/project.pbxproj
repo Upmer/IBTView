@@ -7,25 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		83470E1B2268899E00E8EE93 /* IBShadowDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83470E152268899E00E8EE93 /* IBShadowDesignable.swift */; };
+		83470E1C2268899E00E8EE93 /* IBLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83470E162268899E00E8EE93 /* IBLabel.swift */; };
+		83470E1D2268899E00E8EE93 /* IBView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83470E172268899E00E8EE93 /* IBView.swift */; };
+		83470E1E2268899E00E8EE93 /* IBButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83470E182268899E00E8EE93 /* IBButton.swift */; };
+		83470E1F2268899E00E8EE93 /* IBImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83470E192268899E00E8EE93 /* IBImageView.swift */; };
+		83470E202268899E00E8EE93 /* IBCornerDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83470E1A2268899E00E8EE93 /* IBCornerDesignable.swift */; };
 		83A0BD5722547C7500A85838 /* IBView.h in Headers */ = {isa = PBXBuildFile; fileRef = 83A0BD5522547C7500A85838 /* IBView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		83A0BD6422547C7B00A85838 /* IBShadowDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A0BD5E22547C7B00A85838 /* IBShadowDesignable.swift */; };
-		83A0BD6522547C7B00A85838 /* IBLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A0BD5F22547C7B00A85838 /* IBLabel.swift */; };
-		83A0BD6622547C7B00A85838 /* IBView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A0BD6022547C7B00A85838 /* IBView.swift */; };
-		83A0BD6722547C7B00A85838 /* IBButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A0BD6122547C7B00A85838 /* IBButton.swift */; };
-		83A0BD6822547C7B00A85838 /* IBImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A0BD6222547C7B00A85838 /* IBImageView.swift */; };
-		83A0BD6922547C7B00A85838 /* IBCornerDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A0BD6322547C7B00A85838 /* IBCornerDesignable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		83470E152268899E00E8EE93 /* IBShadowDesignable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IBShadowDesignable.swift; sourceTree = "<group>"; };
+		83470E162268899E00E8EE93 /* IBLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IBLabel.swift; sourceTree = "<group>"; };
+		83470E172268899E00E8EE93 /* IBView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IBView.swift; sourceTree = "<group>"; };
+		83470E182268899E00E8EE93 /* IBButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IBButton.swift; sourceTree = "<group>"; };
+		83470E192268899E00E8EE93 /* IBImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IBImageView.swift; sourceTree = "<group>"; };
+		83470E1A2268899E00E8EE93 /* IBCornerDesignable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IBCornerDesignable.swift; sourceTree = "<group>"; };
 		83A0BD5222547C7500A85838 /* IBView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IBView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		83A0BD5522547C7500A85838 /* IBView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IBView.h; sourceTree = "<group>"; };
 		83A0BD5622547C7500A85838 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		83A0BD5E22547C7B00A85838 /* IBShadowDesignable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IBShadowDesignable.swift; sourceTree = "<group>"; };
-		83A0BD5F22547C7B00A85838 /* IBLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IBLabel.swift; sourceTree = "<group>"; };
-		83A0BD6022547C7B00A85838 /* IBView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IBView.swift; sourceTree = "<group>"; };
-		83A0BD6122547C7B00A85838 /* IBButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IBButton.swift; sourceTree = "<group>"; };
-		83A0BD6222547C7B00A85838 /* IBImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IBImageView.swift; sourceTree = "<group>"; };
-		83A0BD6322547C7B00A85838 /* IBCornerDesignable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IBCornerDesignable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +39,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		83470E142268899E00E8EE93 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				83470E152268899E00E8EE93 /* IBShadowDesignable.swift */,
+				83470E162268899E00E8EE93 /* IBLabel.swift */,
+				83470E172268899E00E8EE93 /* IBView.swift */,
+				83470E182268899E00E8EE93 /* IBButton.swift */,
+				83470E192268899E00E8EE93 /* IBImageView.swift */,
+				83470E1A2268899E00E8EE93 /* IBCornerDesignable.swift */,
+			);
+			name = Source;
+			path = ../../Source;
+			sourceTree = "<group>";
+		};
 		83A0BD4822547C7400A85838 = {
 			isa = PBXGroup;
 			children = (
@@ -58,22 +72,9 @@
 		83A0BD5422547C7500A85838 /* IBView */ = {
 			isa = PBXGroup;
 			children = (
-				83A0BD5D22547C7B00A85838 /* IBView */,
+				83470E142268899E00E8EE93 /* Source */,
 				83A0BD5522547C7500A85838 /* IBView.h */,
 				83A0BD5622547C7500A85838 /* Info.plist */,
-			);
-			path = IBView;
-			sourceTree = "<group>";
-		};
-		83A0BD5D22547C7B00A85838 /* IBView */ = {
-			isa = PBXGroup;
-			children = (
-				83A0BD6322547C7B00A85838 /* IBCornerDesignable.swift */,
-				83A0BD5E22547C7B00A85838 /* IBShadowDesignable.swift */,
-				83A0BD5F22547C7B00A85838 /* IBLabel.swift */,
-				83A0BD6022547C7B00A85838 /* IBView.swift */,
-				83A0BD6122547C7B00A85838 /* IBButton.swift */,
-				83A0BD6222547C7B00A85838 /* IBImageView.swift */,
 			);
 			path = IBView;
 			sourceTree = "<group>";
@@ -156,12 +157,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83A0BD6722547C7B00A85838 /* IBButton.swift in Sources */,
-				83A0BD6822547C7B00A85838 /* IBImageView.swift in Sources */,
-				83A0BD6422547C7B00A85838 /* IBShadowDesignable.swift in Sources */,
-				83A0BD6922547C7B00A85838 /* IBCornerDesignable.swift in Sources */,
-				83A0BD6622547C7B00A85838 /* IBView.swift in Sources */,
-				83A0BD6522547C7B00A85838 /* IBLabel.swift in Sources */,
+				83470E1E2268899E00E8EE93 /* IBButton.swift in Sources */,
+				83470E1F2268899E00E8EE93 /* IBImageView.swift in Sources */,
+				83470E1B2268899E00E8EE93 /* IBShadowDesignable.swift in Sources */,
+				83470E202268899E00E8EE93 /* IBCornerDesignable.swift in Sources */,
+				83470E1D2268899E00E8EE93 /* IBView.swift in Sources */,
+				83470E1C2268899E00E8EE93 /* IBLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
