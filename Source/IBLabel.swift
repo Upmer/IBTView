@@ -8,16 +8,20 @@
 
 import UIKit
 
-class IBLabel: UILabel, IBCornerDesignable {
+@IBDesignable
+class IBLabel: UILabel, IBCornerDesignable, IBLocalizedDesignable {
   
   @IBInspectable var cornerRadius: CGFloat = IBDefaultConfig.cornerRadius
-  
   @IBInspectable var borderColor: UIColor? = nil
   @IBInspectable var borderWidth: CGFloat = IBDefaultConfig.borderWidth
+  
+  @IBInspectable var localizedText: String?
+  @IBInspectable var commentText: String?
   
   override func didMoveToWindow() {
     super.didMoveToWindow()
     setCornerAndBorderConfiguration()
+    setLocalizedString()
   }
 }
 

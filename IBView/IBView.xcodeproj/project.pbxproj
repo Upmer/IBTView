@@ -13,6 +13,9 @@
 		83470E1E2268899E00E8EE93 /* IBButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83470E182268899E00E8EE93 /* IBButton.swift */; };
 		83470E1F2268899E00E8EE93 /* IBImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83470E192268899E00E8EE93 /* IBImageView.swift */; };
 		83470E202268899E00E8EE93 /* IBCornerDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83470E1A2268899E00E8EE93 /* IBCornerDesignable.swift */; };
+		83650E4A22BA2F3C00CECB2A /* IBAttributeTextDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83650E4922BA2F3C00CECB2A /* IBAttributeTextDesignable.swift */; };
+		83650E4C22BA327500CECB2A /* IBAttributeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83650E4B22BA327500CECB2A /* IBAttributeLabel.swift */; };
+		83650E4E22BA362900CECB2A /* IBLocalizerDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83650E4D22BA362900CECB2A /* IBLocalizerDesignable.swift */; };
 		83A0BD5722547C7500A85838 /* IBView.h in Headers */ = {isa = PBXBuildFile; fileRef = 83A0BD5522547C7500A85838 /* IBView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -23,6 +26,9 @@
 		83470E182268899E00E8EE93 /* IBButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IBButton.swift; sourceTree = "<group>"; };
 		83470E192268899E00E8EE93 /* IBImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IBImageView.swift; sourceTree = "<group>"; };
 		83470E1A2268899E00E8EE93 /* IBCornerDesignable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IBCornerDesignable.swift; sourceTree = "<group>"; };
+		83650E4922BA2F3C00CECB2A /* IBAttributeTextDesignable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBAttributeTextDesignable.swift; sourceTree = "<group>"; };
+		83650E4B22BA327500CECB2A /* IBAttributeLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBAttributeLabel.swift; sourceTree = "<group>"; };
+		83650E4D22BA362900CECB2A /* IBLocalizerDesignable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBLocalizerDesignable.swift; sourceTree = "<group>"; };
 		83A0BD5222547C7500A85838 /* IBView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IBView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		83A0BD5522547C7500A85838 /* IBView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IBView.h; sourceTree = "<group>"; };
 		83A0BD5622547C7500A85838 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -42,12 +48,15 @@
 		83470E142268899E00E8EE93 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				83470E152268899E00E8EE93 /* IBShadowDesignable.swift */,
 				83470E162268899E00E8EE93 /* IBLabel.swift */,
+				83650E4B22BA327500CECB2A /* IBAttributeLabel.swift */,
 				83470E172268899E00E8EE93 /* IBView.swift */,
 				83470E182268899E00E8EE93 /* IBButton.swift */,
 				83470E192268899E00E8EE93 /* IBImageView.swift */,
 				83470E1A2268899E00E8EE93 /* IBCornerDesignable.swift */,
+				83470E152268899E00E8EE93 /* IBShadowDesignable.swift */,
+				83650E4922BA2F3C00CECB2A /* IBAttributeTextDesignable.swift */,
+				83650E4D22BA362900CECB2A /* IBLocalizerDesignable.swift */,
 			);
 			name = Source;
 			path = ../../Source;
@@ -157,9 +166,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83650E4C22BA327500CECB2A /* IBAttributeLabel.swift in Sources */,
 				83470E1E2268899E00E8EE93 /* IBButton.swift in Sources */,
+				83650E4E22BA362900CECB2A /* IBLocalizerDesignable.swift in Sources */,
 				83470E1F2268899E00E8EE93 /* IBImageView.swift in Sources */,
 				83470E1B2268899E00E8EE93 /* IBShadowDesignable.swift in Sources */,
+				83650E4A22BA2F3C00CECB2A /* IBAttributeTextDesignable.swift in Sources */,
 				83470E202268899E00E8EE93 /* IBCornerDesignable.swift in Sources */,
 				83470E1D2268899E00E8EE93 /* IBView.swift in Sources */,
 				83470E1C2268899E00E8EE93 /* IBLabel.swift in Sources */,
