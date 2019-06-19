@@ -7,28 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		83470E1B2268899E00E8EE93 /* IBShadowDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83470E152268899E00E8EE93 /* IBShadowDesignable.swift */; };
-		83470E1C2268899E00E8EE93 /* IBLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83470E162268899E00E8EE93 /* IBLabel.swift */; };
-		83470E1D2268899E00E8EE93 /* IBView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83470E172268899E00E8EE93 /* IBView.swift */; };
-		83470E1E2268899E00E8EE93 /* IBButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83470E182268899E00E8EE93 /* IBButton.swift */; };
-		83470E1F2268899E00E8EE93 /* IBImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83470E192268899E00E8EE93 /* IBImageView.swift */; };
-		83470E202268899E00E8EE93 /* IBCornerDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83470E1A2268899E00E8EE93 /* IBCornerDesignable.swift */; };
-		83650E4A22BA2F3C00CECB2A /* IBAttributeTextDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83650E4922BA2F3C00CECB2A /* IBAttributeTextDesignable.swift */; };
-		83650E4C22BA327500CECB2A /* IBAttributeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83650E4B22BA327500CECB2A /* IBAttributeLabel.swift */; };
-		83650E4E22BA362900CECB2A /* IBLocalizerDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83650E4D22BA362900CECB2A /* IBLocalizerDesignable.swift */; };
+		83984F7822BA62F9000E5155 /* IBShadowDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83984F6F22BA62F9000E5155 /* IBShadowDesignable.swift */; };
+		83984F7922BA62F9000E5155 /* IBAttributeTextDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83984F7022BA62F9000E5155 /* IBAttributeTextDesignable.swift */; };
+		83984F7A22BA62F9000E5155 /* IBLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83984F7122BA62F9000E5155 /* IBLabel.swift */; };
+		83984F7B22BA62F9000E5155 /* IBView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83984F7222BA62F9000E5155 /* IBView.swift */; };
+		83984F7C22BA62F9000E5155 /* IBLocalizerDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83984F7322BA62F9000E5155 /* IBLocalizerDesignable.swift */; };
+		83984F7D22BA62F9000E5155 /* IBButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83984F7422BA62F9000E5155 /* IBButton.swift */; };
+		83984F7E22BA62F9000E5155 /* IBAttributeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83984F7522BA62F9000E5155 /* IBAttributeLabel.swift */; };
+		83984F7F22BA62F9000E5155 /* IBImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83984F7622BA62F9000E5155 /* IBImageView.swift */; };
+		83984F8022BA62F9000E5155 /* IBCornerDesignable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83984F7722BA62F9000E5155 /* IBCornerDesignable.swift */; };
 		83A0BD5722547C7500A85838 /* IBView.h in Headers */ = {isa = PBXBuildFile; fileRef = 83A0BD5522547C7500A85838 /* IBView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		83470E152268899E00E8EE93 /* IBShadowDesignable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IBShadowDesignable.swift; sourceTree = "<group>"; };
-		83470E162268899E00E8EE93 /* IBLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IBLabel.swift; sourceTree = "<group>"; };
-		83470E172268899E00E8EE93 /* IBView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IBView.swift; sourceTree = "<group>"; };
-		83470E182268899E00E8EE93 /* IBButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IBButton.swift; sourceTree = "<group>"; };
-		83470E192268899E00E8EE93 /* IBImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IBImageView.swift; sourceTree = "<group>"; };
-		83470E1A2268899E00E8EE93 /* IBCornerDesignable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IBCornerDesignable.swift; sourceTree = "<group>"; };
-		83650E4922BA2F3C00CECB2A /* IBAttributeTextDesignable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBAttributeTextDesignable.swift; sourceTree = "<group>"; };
-		83650E4B22BA327500CECB2A /* IBAttributeLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBAttributeLabel.swift; sourceTree = "<group>"; };
-		83650E4D22BA362900CECB2A /* IBLocalizerDesignable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBLocalizerDesignable.swift; sourceTree = "<group>"; };
+		83984F6F22BA62F9000E5155 /* IBShadowDesignable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IBShadowDesignable.swift; sourceTree = "<group>"; };
+		83984F7022BA62F9000E5155 /* IBAttributeTextDesignable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IBAttributeTextDesignable.swift; sourceTree = "<group>"; };
+		83984F7122BA62F9000E5155 /* IBLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IBLabel.swift; sourceTree = "<group>"; };
+		83984F7222BA62F9000E5155 /* IBView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IBView.swift; sourceTree = "<group>"; };
+		83984F7322BA62F9000E5155 /* IBLocalizerDesignable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IBLocalizerDesignable.swift; sourceTree = "<group>"; };
+		83984F7422BA62F9000E5155 /* IBButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IBButton.swift; sourceTree = "<group>"; };
+		83984F7522BA62F9000E5155 /* IBAttributeLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IBAttributeLabel.swift; sourceTree = "<group>"; };
+		83984F7622BA62F9000E5155 /* IBImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IBImageView.swift; sourceTree = "<group>"; };
+		83984F7722BA62F9000E5155 /* IBCornerDesignable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IBCornerDesignable.swift; sourceTree = "<group>"; };
 		83A0BD5222547C7500A85838 /* IBView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IBView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		83A0BD5522547C7500A85838 /* IBView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IBView.h; sourceTree = "<group>"; };
 		83A0BD5622547C7500A85838 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,21 +45,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		83470E142268899E00E8EE93 /* Source */ = {
+		83984F6E22BA62F9000E5155 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				83470E162268899E00E8EE93 /* IBLabel.swift */,
-				83650E4B22BA327500CECB2A /* IBAttributeLabel.swift */,
-				83470E172268899E00E8EE93 /* IBView.swift */,
-				83470E182268899E00E8EE93 /* IBButton.swift */,
-				83470E192268899E00E8EE93 /* IBImageView.swift */,
-				83470E1A2268899E00E8EE93 /* IBCornerDesignable.swift */,
-				83470E152268899E00E8EE93 /* IBShadowDesignable.swift */,
-				83650E4922BA2F3C00CECB2A /* IBAttributeTextDesignable.swift */,
-				83650E4D22BA362900CECB2A /* IBLocalizerDesignable.swift */,
+				83984F6F22BA62F9000E5155 /* IBShadowDesignable.swift */,
+				83984F7022BA62F9000E5155 /* IBAttributeTextDesignable.swift */,
+				83984F7122BA62F9000E5155 /* IBLabel.swift */,
+				83984F7222BA62F9000E5155 /* IBView.swift */,
+				83984F7322BA62F9000E5155 /* IBLocalizerDesignable.swift */,
+				83984F7422BA62F9000E5155 /* IBButton.swift */,
+				83984F7522BA62F9000E5155 /* IBAttributeLabel.swift */,
+				83984F7622BA62F9000E5155 /* IBImageView.swift */,
+				83984F7722BA62F9000E5155 /* IBCornerDesignable.swift */,
 			);
 			name = Source;
-			path = ../../Example/Example/Source;
+			path = ../../Source;
 			sourceTree = "<group>";
 		};
 		83A0BD4822547C7400A85838 = {
@@ -81,7 +81,7 @@
 		83A0BD5422547C7500A85838 /* IBView */ = {
 			isa = PBXGroup;
 			children = (
-				83470E142268899E00E8EE93 /* Source */,
+				83984F6E22BA62F9000E5155 /* Source */,
 				83A0BD5522547C7500A85838 /* IBView.h */,
 				83A0BD5622547C7500A85838 /* Info.plist */,
 			);
@@ -166,15 +166,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83650E4C22BA327500CECB2A /* IBAttributeLabel.swift in Sources */,
-				83470E1E2268899E00E8EE93 /* IBButton.swift in Sources */,
-				83650E4E22BA362900CECB2A /* IBLocalizerDesignable.swift in Sources */,
-				83470E1F2268899E00E8EE93 /* IBImageView.swift in Sources */,
-				83470E1B2268899E00E8EE93 /* IBShadowDesignable.swift in Sources */,
-				83650E4A22BA2F3C00CECB2A /* IBAttributeTextDesignable.swift in Sources */,
-				83470E202268899E00E8EE93 /* IBCornerDesignable.swift in Sources */,
-				83470E1D2268899E00E8EE93 /* IBView.swift in Sources */,
-				83470E1C2268899E00E8EE93 /* IBLabel.swift in Sources */,
+				83984F8022BA62F9000E5155 /* IBCornerDesignable.swift in Sources */,
+				83984F7922BA62F9000E5155 /* IBAttributeTextDesignable.swift in Sources */,
+				83984F7B22BA62F9000E5155 /* IBView.swift in Sources */,
+				83984F7D22BA62F9000E5155 /* IBButton.swift in Sources */,
+				83984F7C22BA62F9000E5155 /* IBLocalizerDesignable.swift in Sources */,
+				83984F7A22BA62F9000E5155 /* IBLabel.swift in Sources */,
+				83984F7F22BA62F9000E5155 /* IBImageView.swift in Sources */,
+				83984F7822BA62F9000E5155 /* IBShadowDesignable.swift in Sources */,
+				83984F7E22BA62F9000E5155 /* IBAttributeLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
