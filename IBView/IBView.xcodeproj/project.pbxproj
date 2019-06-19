@@ -59,7 +59,7 @@
 				83650E4D22BA362900CECB2A /* IBLocalizerDesignable.swift */,
 			);
 			name = Source;
-			path = ../../Source;
+			path = ../../Example/Example/Source;
 			sourceTree = "<group>";
 		};
 		83A0BD4822547C7400A85838 = {
